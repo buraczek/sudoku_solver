@@ -7,7 +7,7 @@ from sys import stderr
 from board_parser import get_next_line, RANGE
 
 
-class SudokuSolve:
+class SudokuSolve(object):
     STRIKES = 0
     BOARD = {}
     DIGITS = digits[1:]
